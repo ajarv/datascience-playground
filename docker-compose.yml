@@ -9,6 +9,6 @@ services:
       - ~/Desktop:/home/rstudio/Desktop
       - ~/Dropbox:/home/rstudio/Dropbox:ro
   tensorflow:
-    build: jupyter/tensorflow-notebook
+    image: jupyter/tensorflow-notebook
     ports:
       - 8888:8888
