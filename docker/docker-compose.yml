@@ -1,0 +1,11 @@
+version: '3'
+services:
+  radiant:
+    build: docker-radiant
+    ports:
+      - 8787:8787
+      - 80:80
+  tensorflow:
+    build: tensorflow-noteook
+    ports:
+      - 8888:8888

@@ -1,0 +1,3 @@
+[submodule "docker-radiant"]
+	path = docker-radiant
+	url = git@github.com:radiant-rstats/docker-radiant.git
