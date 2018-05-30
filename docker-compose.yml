@@ -4,7 +4,7 @@ services:
     image: "vnijs/radiant"
     ports:
       - 8787:8787
-      - 80:80
+      - 9080:80
     volumes:
       - ~/Desktop:/home/rstudio/Desktop
       - ~/Dropbox:/home/rstudio/Dropbox:ro
@@ -12,3 +12,5 @@ services:
     image: jupyter/tensorflow-notebook
     ports:
       - 8888:8888
+    volumes:
+      - ~/Dropbox:/work/Dropbox:ro
