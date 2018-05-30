@@ -13,4 +13,4 @@ services:
     ports:
       - 8888:8888
     volumes:
-      - ~/Dropbox:/work/Dropbox:ro
+      - ~/Dropbox:/home/jovyan/Dropbox:ro
