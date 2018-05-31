@@ -35,8 +35,7 @@ You should be able to access
 * Radiant at <a href="http://127.0.0.1:9080" target="_blank">http://127.0.0.1:9080</a>
 * Rstudio at <a href="http://127.0.0.1:8787" target="_blank">http://127.0.0.1:8787</a>
 * Jupyter Notebook at <a href="http://127.0.0.1:8888" target="_blank">http://127.0.0.1:8888</a>
-Please note : The password for the jupyter notebook will be displayed in the logs shown on docker-compose shell.
-
+The password token to the notebook is <strong>sandiego</strong> . It is controled by the JUPYTER_TOKEN environment variable set in docker-compose.yml 
 
 The dropbox folder ~/Dropbox on the computer running docker compose  will be accessible from all the containers  in READONLY mode.
 
